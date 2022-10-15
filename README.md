@@ -25,7 +25,7 @@ run in yara folder
 
 scan a suspected file
 
-""" # yara64 -s -r yara_rule.yara [malware fle path and name] """
+""" # yara64 -s -r yara_rule.yara [malware file path and name] """
 
 
 identify executable files in hexadecimal format.
