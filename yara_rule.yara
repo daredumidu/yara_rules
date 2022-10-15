@@ -8,7 +8,8 @@ strings:
 	$b = "http://www.chiark.greenend.org.uk/~sgtatham/putty/"
 	$c = "https://secure.comodo.net/CPS0F"
 	$mz = {4D 5A}
+	$post = "HTTP"
 
 condition:
-	(($a or $b or $c) and $mz)
+	(($a or $b or $c or $post) and $mz)
 }
